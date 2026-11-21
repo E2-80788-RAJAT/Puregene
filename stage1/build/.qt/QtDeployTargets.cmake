@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appPureGeneApp_FILE /home/puregene/puregene/stage1/build/appPureGeneApp)
+set(__QT_DEPLOY_TARGET_appPureGeneApp_TYPE EXECUTABLE)

@@ -1,0 +1,158 @@
+[
+    {
+        "classes": [
+            {
+                "className": "HardwareController",
+                "lineNumber": 7,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "topTemp",
+                        "notify": "tempsUpdated",
+                        "read": "topTemp",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "float",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "bottomTemp",
+                        "notify": "tempsUpdated",
+                        "read": "bottomTemp",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "float",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "HardwareController",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "tempsUpdated",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "spot",
+                                "type": "int"
+                            },
+                            {
+                                "name": "cycle",
+                                "type": "int"
+                            },
+                            {
+                                "name": "rfu",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "graphDataUpdated",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "runComplete",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "trayIn",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "name": "trayOut",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "name": "startHeaters",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "name": "stopHeaters",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "targetCycles",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 7,
+                        "name": "startOptical",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 8,
+                        "name": "stopOptical",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "temp",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 9,
+                        "name": "setTopTemp",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "temp",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 10,
+                        "name": "setBottomTemp",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "HardwareController.h",
+        "outputRevision": 68
+    }
+]

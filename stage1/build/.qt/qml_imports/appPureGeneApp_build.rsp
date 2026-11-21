@@ -1,0 +1,14 @@
+-rootPath
+/home/puregene/puregene/stage1
+-cmake-output
+-output-file
+/home/puregene/puregene/stage1/build/.qt/qml_imports/appPureGeneApp_build.cmake
+-importPath
+/home/puregene/puregene/stage1/build/PureGene
+-importPath
+/home/puregene/puregene/stage1/build
+-importPath
+/usr/lib/aarch64-linux-gnu/qt6/qml
+-qrcFiles
+/home/puregene/puregene/stage1/build/.qt/rcc/qmake_PureGene.qrc
+/home/puregene/puregene/stage1/build/.qt/rcc/appPureGeneApp_raw_qml_0.qrc

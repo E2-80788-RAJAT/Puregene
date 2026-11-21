@@ -10,7 +10,7 @@
 #include "drv8825.h"
 
 // --- Hardware Definitions ---
-#define SERIAL_PORT "/dev/ttyACM0"
+//#define SERIAL_PORT "/dev/ttyACM0"
 #define PIN_12V_EN 17 
 #define PIN_LED_EN 27 
 

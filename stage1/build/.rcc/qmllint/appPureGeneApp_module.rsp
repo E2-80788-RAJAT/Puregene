@@ -1,0 +1,10 @@
+-I
+/home/puregene/puregene/stage1/build
+-I
+/usr/lib/aarch64-linux-gnu/qt6/qml
+--resource
+/home/puregene/puregene/stage1/build/.qt/rcc/qmake_PureGene.qrc
+--resource
+/home/puregene/puregene/stage1/build/.qt/rcc/appPureGeneApp_raw_qml_0.qrc
+--module
+PureGene

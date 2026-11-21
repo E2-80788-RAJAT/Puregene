@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/PureGene">/home/puregene/puregene/stage1/build/PureGene</file>
+
+  </qresource>
+</RCC>
