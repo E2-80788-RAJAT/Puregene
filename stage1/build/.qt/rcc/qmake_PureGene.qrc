@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/PureGene">
+    <file alias="qmldir">/home/puregene/puregene/stage1/build/PureGene/qmldir</file>
+  </qresource>
+</RCC>
+

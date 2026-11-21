@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/PureGene/">
+    <file alias="main.qml">/home/puregene/puregene/stage1/main.qml</file>
+  </qresource>
+</RCC>
+

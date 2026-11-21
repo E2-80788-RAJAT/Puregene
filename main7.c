@@ -25,7 +25,7 @@
 #define DIR_TOWARD_SWITCH   0   // Backward toward switch
 #define DIR_AWAY_SWITCH     1   // Forward away from switch
 #define STEP_DELAY_US       1000 // 1 ms delay between step pulses
-#define HOMING_OFFSET_STEPS 500
+#define HOMING_OFFSET_STEPS 600
 #define SPOT_INTERVAL_STEPS 100
 
 // --- EXPERIMENT PARAMETERS ---
@@ -97,7 +97,7 @@ int ads1115_read_a0(int fd, int16_t *raw_adc, double *voltage) {
 
     uint8_t data[2];
     if (read(fd, data, 2) != 2) {
-        perror("[ERROR] ADS1115 data read failed");
+	perror("sd	    115 data read failed");
         return -1;
     }
 

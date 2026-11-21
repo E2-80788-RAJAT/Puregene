@@ -1,0 +1,4 @@
+module PureGene
+typeinfo appPureGeneApp.qmltypes
+prefer :/PureGene/
+
